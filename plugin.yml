@@ -1,0 +1,15 @@
+name: Locker
+author: LaPiMoNsTeR
+version: 1.0
+main: pf.lapimonster.locker.Locker
+commands:
+  locker:
+    description: Locker commands
+    permission: locker.user
+
+
+permissions:
+  locker.user:
+    default: true
+  locker.admin.bypass:
+    default: op
